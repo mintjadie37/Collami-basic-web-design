@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="html-form">
+        <h1 style="text-align: center; margin-bottom: 5px;">Sign-up Form</h1>
+        <form action="">
+            <div class="form">
+                <div class="box tt" style="display: flex; justify-content: space-between;">
+                    <div style="margin-right: 20px;">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div style="flex-grow: 100;">
+                        <label for="birthday">Date of Birth</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                </div>
+                <p style="font-size: larger; margin: 10px 0 0 0;">Gender</p>
+                <div class="box rr" style="display: flex; flex-direction: row; justify-content: space-around;">
+                    <div>
+                        <label for="gioitinh">Male</label>
+                        <input type="radio" name="gioitinh">
+                    </div>
+                    <div>
+                        <label for="gioitinh">Female</label>
+                        <input type="radio" name="gioitinh"></input>
+                    </div>
+                    <div>
+                        <label for="gioitinh">Non-binary</label>
+                        <input type="radio" name="gioitinh"></input>
+                    </div>
+                </div>
+                <div class="box tt">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Your email address" required>
+                </div>
+                <div class="box tt">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Set a password" required>
+                </div>
+            </div>
+            <div class="box" style="text-align: center;">
+                <button type="submit" style="font-family: Poppins;">
+                    <h4>SIGN UP</h4>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
